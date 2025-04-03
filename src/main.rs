@@ -11,7 +11,7 @@ fn phi(x: f64) -> f64 {
 }
 
 fn plot_graphs() -> Result<(), Box<dyn std::error::Error>> {
-    let root = BitMapBackend::new("graphs.png", (800, 600)).into_drawing_area();
+    let root = BitMapBackend::new("graphs.png", (800, 800)).into_drawing_area();
     root.fill(&WHITE)?;
 
     let mut chart = ChartBuilder::on(&root)
@@ -19,12 +19,12 @@ fn plot_graphs() -> Result<(), Box<dyn std::error::Error>> {
         .margin(20)
         .x_label_area_size(30)
         .y_label_area_size(30)
-        .build_cartesian_2d(-10.0..10.0, -10.0..100.0)?;
+        .build_cartesian_2d(-50.0..50.0, -50.0..50.0)?;
 
     chart.configure_mesh().draw()?;
 
     chart.draw_series(LineSeries::new(
-        (-100..=100).map(|x| (x as f64 / 10.0, f(x as f64 / 10.0))),
+        (-1000..=1000).map(|x| (x as f64 / 10.0, f(x as f64 / 10.0))),
         &RED,
     ))?.label("y = f(x)").legend(|(x, y)| {
         Rectangle::new(
@@ -38,7 +38,7 @@ fn plot_graphs() -> Result<(), Box<dyn std::error::Error>> {
     });
 
     chart.draw_series(LineSeries::new(
-        (-100..=100).map(|x| (x as f64 / 10.0, x as f64 / 10.0)),
+        (-1000..=1000).map(|x| (x as f64 / 10.0, x as f64 / 10.0)),
         &BLUE,
     ))?.label("y = x").legend(|(x, y)| {
         Rectangle::new(
@@ -52,7 +52,7 @@ fn plot_graphs() -> Result<(), Box<dyn std::error::Error>> {
     });
 
     chart.draw_series(LineSeries::new(
-        (-100..=100).map(|x| (x as f64 / 10.0, phi(x as f64 / 10.0))),
+        (-1000..=1000).map(|x| (x as f64 / 10.0, phi(x as f64 / 10.0))),
         &GREEN,
     ))?.label("y = φ(x)").legend(|(x, y)| {
         Rectangle::new(
@@ -109,6 +109,7 @@ fn main() {
         io::stdin().read_line(&mut input).unwrap();
         let eps: f64 = input.trim().parse().unwrap();
 
+        
         println!("Метод дихотомії");
         functions::dix(0, a, b, eps);
 
