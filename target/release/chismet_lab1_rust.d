@@ -1,0 +1,1 @@
+/Users/taraskabacok/Documents/chismetlabs/chismet_lab1/chismet_lab1_rust/target/release/chismet_lab1_rust: /Users/taraskabacok/Documents/chismetlabs/chismet_lab1/chismet_lab1_rust/src/functions.rs /Users/taraskabacok/Documents/chismetlabs/chismet_lab1/chismet_lab1_rust/src/main.rs

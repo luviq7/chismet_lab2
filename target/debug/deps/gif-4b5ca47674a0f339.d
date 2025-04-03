@@ -1,0 +1,11 @@
+/Users/taraskabacok/Documents/chismetlabs/chismet_lab2/target/debug/deps/libgif-4b5ca47674a0f339.rmeta: /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/lib.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/traits.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/common.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/mod.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/decoder.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/encoder.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/../README.md
+
+/Users/taraskabacok/Documents/chismetlabs/chismet_lab2/target/debug/deps/gif-4b5ca47674a0f339.d: /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/lib.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/traits.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/common.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/mod.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/decoder.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/encoder.rs /Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/../README.md
+
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/lib.rs:
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/traits.rs:
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/common.rs:
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/mod.rs:
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/decoder.rs:
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/encoder.rs:
+/Users/taraskabacok/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/../README.md:
