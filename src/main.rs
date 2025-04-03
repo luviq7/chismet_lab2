@@ -83,16 +83,16 @@ fn main() {
     input.clear();
 
     if reg == 1 {
-        println!("Метод дихотомії");
+        println!("Метод дихотомії:");
         functions::dix(0, 6.0, 7.0, 0.01);
 
-        println!("Метод хорд");
+        println!("Метод хорд:");
         functions::hord(0, 6.0, 7.0, 0.01);
 
-        println!("Метод Ньютона");
+        println!("Метод Ньютона:");
         functions::newton(0, 6.0, 7.0, 0.01);
 
-        println!("Метод простої ітерації");
+        println!("Метод простої ітерації:");
         functions::iteration(0, 6.0, 6.0, 7.0, 0.01);
     } else if reg == 2 {
         println!("Введіть a");
